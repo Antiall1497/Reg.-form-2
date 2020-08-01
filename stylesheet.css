@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.wrapper {
+    padding: 20px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.allForm {
+    border-top: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+margin-top: -21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    width: 150px;
+}
+
+.firstName {
+    margin-bottom: 10px;
+    height: 20px;
+    width: 190px;
+}
+
+.secondName {
+    margin-left:8px;
+    height: 20px;
+    width: 190px;
+}
+
+.email {
+    width: 400px;
+    height: 20px;
+}
+
+.password {
+    margin-top: 10px;
+    width: 400px;
+    height: 20px;
+}
+
+span {
+    color:green;
+}
+
+.button {
+    margin-top: 10px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 400px;
+}
+
+.checkbox {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.confirmation {
+    margin-top: 10px;
+    width: 400px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white
+}
+
+.button:hover {
+    background: #227822;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+
+    div {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+div {
+    width: 320px;}
+}
